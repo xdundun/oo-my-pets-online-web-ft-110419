@@ -12,7 +12,7 @@ class Cat
 
     end
 
-    def self.cats
+    def cats
       @cats
     end
 
