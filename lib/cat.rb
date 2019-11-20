@@ -1,4 +1,4 @@
 class Cat
-    attr_accessor :name, :owner
+    attr_accessor :name, :owner, :mood
 
 end
