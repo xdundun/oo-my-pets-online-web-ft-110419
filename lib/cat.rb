@@ -12,6 +12,10 @@ class Cat
 
     end
 
+    def self.cats
+      @cats
+    end
+
     def self.all
       @@all
     end
