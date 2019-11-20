@@ -15,6 +15,10 @@ class Owner
     @cats
   end
 
+  def dogs
+    @dogs
+  end
+
   def say_species
    "I am a " << @species << "."
   end
