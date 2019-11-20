@@ -66,5 +66,4 @@ end
     @@all.clear
   end
 
-
 end #end of class
