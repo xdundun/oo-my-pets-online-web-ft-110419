@@ -38,6 +38,9 @@ end
       @dogs.clear
   end
 
+  def list_pets
+  end
+
   def cats
     @cats
   end
