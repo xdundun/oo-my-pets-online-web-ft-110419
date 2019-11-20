@@ -16,6 +16,7 @@ class Owner
   end
 
   def buy_dog
+    d = Dog.new(dog,self)
   end
   def cats
     @cats
