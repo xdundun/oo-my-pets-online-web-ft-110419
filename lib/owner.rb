@@ -11,6 +11,9 @@ class Owner
     @@all << self
   end
 
+  def buy_cat(cat)
+  end
+
   def cats
     @cats
   end
