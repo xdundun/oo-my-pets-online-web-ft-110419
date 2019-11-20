@@ -3,7 +3,7 @@ class Cat
     @@all = []
 
     def initialize(name, Owner)
-    #  @owner = Owner
+      @owner = Owner
       @name = name
       @mood = "nervous"
     end
