@@ -14,7 +14,7 @@ class Owner
   end
 
   def self.all
-
+    @@self
   end
 
 end #end of class
