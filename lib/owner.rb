@@ -29,7 +29,7 @@ end
 
   def sell_pets
     @cats.each {|cat| cat.mood = "nervous" cat.owner = nil }
-    @dogs.each {|dog| dog.mood = "nervous" cat.owner = nil }
+    @dogs.each {|dog| dog.mood = "nervous" dog.owner = nil }
   end
 
   def cats
