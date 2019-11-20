@@ -18,6 +18,11 @@ class Owner
   def buy_dog(dog)
     d = Dog.new(dog,self)
   end
+
+  def walk_dogs(Dog)
+
+
+
   def cats
     @cats
   end
