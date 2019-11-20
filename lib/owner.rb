@@ -34,6 +34,7 @@ end
     @dogs.each {|dog|
       dog.mood = "nervous"
       dog.owner = nil }
+      @cats = []
   end
 
   def cats
