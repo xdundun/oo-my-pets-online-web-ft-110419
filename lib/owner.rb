@@ -11,4 +11,7 @@ class Owner
     @species
   end
 
+  def self.all
+  end
+
 end #end of class
