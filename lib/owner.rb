@@ -35,6 +35,7 @@ end
       dog.mood = "nervous"
       dog.owner = nil }
       @cats.clear
+      @dogs.clear
   end
 
   def cats
