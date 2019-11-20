@@ -28,6 +28,7 @@ end
   end
 
   def sell_pets
+    @cats.each {|cat| cat.mood = "nervous" cat.owner = nil }
   end
 
   def cats
