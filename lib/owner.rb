@@ -15,6 +15,8 @@ class Owner
     c = Cat.new(cat,self)
   end
 
+  def buy_dog
+  end
   def cats
     @cats
   end
