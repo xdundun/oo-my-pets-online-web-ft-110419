@@ -1,6 +1,7 @@
 class Owner
   #attr_accessor :name, :species
   attr_reader :name, :species
+  @@all = []
 
   def initialize(name)
     @name = name
@@ -12,6 +13,7 @@ class Owner
   end
 
   def self.all
+
   end
 
 end #end of class
